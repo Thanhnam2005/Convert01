@@ -1,0 +1,35 @@
+{
+    "name": "image-to-pdf",
+    "version": "0.1.0",
+    "private": true,
+    "homepage": "https://thanhnam2005.github.io/Convert01",
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d dist"
+    },
+    "dependencies": {
+      "@fortawesome/fontawesome-svg-core": "^6.4.0",
+      "@fortawesome/free-solid-svg-icons": "^6.4.0",
+      "@fortawesome/react-fontawesome": "^0.2.0",
+      "framer-motion": "^10.12.16",
+      "jspdf": "^2.5.1",
+      "next": "13.4.7",
+      "react": "18.2.0",
+      "react-dom": "18.2.0",
+      "styled-components": "^6.0.0-rc.3"
+    },
+    "devDependencies": {
+      "@types/node": "20.3.1",
+      "@types/react": "18.2.13",
+      "@types/react-dom": "18.2.6",
+      "eslint": "8.43.0",
+      "eslint-config-next": "13.4.7",
+      "typescript": "5.1.3"
+    }
+  }
+  
+  
