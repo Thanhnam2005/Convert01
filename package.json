@@ -1,33 +1,57 @@
 {
     "name": "image-to-pdf",
-    "private": true,
     "version": "0.1.0",
-    "type": "module",
-    "scripts": {
-      "dev": "vite",
-      "build": "tsc && vite build",
-      "preview": "vite preview",
-      "predeploy": "npm run build",
-      "deploy": "gh-pages -d dist"
-    },
+    "private": true,
+    "homepage": "https://thanhnam2005.github.io/Convert01",
     "dependencies": {
       "@fortawesome/fontawesome-svg-core": "^6.4.0",
       "@fortawesome/free-solid-svg-icons": "^6.4.0",
       "@fortawesome/react-fontawesome": "^0.2.0",
+      "@testing-library/jest-dom": "^5.16.5",
+      "@testing-library/react": "^13.4.0",
+      "@testing-library/user-event": "^13.5.0",
+      "@types/jest": "^27.5.2",
+      "@types/node": "^16.18.38",
+      "@types/react": "^18.2.14",
+      "@types/react-dom": "^18.2.6",
       "framer-motion": "^10.12.16",
       "jspdf": "^2.5.1",
       "react": "^18.2.0",
       "react-dom": "^18.2.0",
-      "styled-components": "^6.0.0-rc.3"
+      "react-scripts": "5.0.1",
+      "styled-components": "^5.3.10",
+      "typescript": "^4.9.5",
+      "web-vitals": "^2.1.4"
     },
     "devDependencies": {
-      "@types/node": "^20.3.1",
-      "@types/react": "^18.2.13",
-      "@types/react-dom": "^18.2.6",
-      "@vitejs/plugin-react": "^4.0.0",
-      "gh-pages": "^5.0.0",
-      "typescript": "^5.0.2",
-      "vite": "^4.3.9"
+      "@types/styled-components": "^5.1.26",
+      "gh-pages": "^5.0.0"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
     }
   }
   
